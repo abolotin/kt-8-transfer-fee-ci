@@ -11,7 +11,7 @@ class MainKtTest {
 
         val result = calculateMCFee(monthTransferredAmount, transferAmount)
 
-        assertEquals("превышен лимит месячного перевода!", result)
+        assertEquals("xпревышен лимит месячного перевода!", result)
     }
 
     @Test
